@@ -1,0 +1,149 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.flex-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hedBG {
+    
+    background: #00000071
+}
+.hed {
+    height: 97px;
+}
+.hed__logo {
+    display: flex;
+    align-items: center;
+}
+.hed__contact a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #ffc529;
+    text-decoration-line: none;
+    margin-right: 33px;
+}
+.hed__contact a i:hover {
+    text-shadow: 0 0 10px #ffc529;
+}
+.item-hed__callback {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    height: 45px;
+    width: 186px;
+    background: #FFC529;
+    box-shadow: 0px 0px 20px #FFD35D;
+    border-radius: 100px;
+    border: none;
+    margin-right: 18px;
+}
+.item-hed__lang {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E1E1E1;
+    width: 142px;
+    height: 45px;
+    background: #232421;
+    border: 1px solid #606060;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.ru-icon {
+    background-image: url('/img/RU.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 20px;
+    background-position: 0 1px;
+}
+.menu-fix {
+    margin-top: 24px;
+}
+.menu__nav li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    text-decoration-line: none;
+}
+.item-menu{
+    position: relative;
+}
+.item-menu::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background: #ffc529;
+    transition: all 1s;
+}
+.item-menu:hover::before {
+    width: 100%;
+    box-shadow: 0 0 10px 0 #ffc529;
+}
+
+.topBG {
+    background-image: url(/img/topBG.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.selection-cars__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+}
+.selection-cars__title span {
+    display: inline-block;
+    font-size: 80px;
+    line-height: 109px;
+    -webkit-text-stroke: 4px #000;
+    color: #fff;    
+}
+.selection-cars__services {
+    display: flex;
+    justify-content: center;
+}
+.services-items {
+    text-align: center;
+}
+.services-items img {
+    background-color: #ffc529;
+    border: 5px solid #ffc529;
+    border-radius: 50%;
+}
+.services-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.services-text span {
+    margin-left: 10px;
+    font-weight: 700;
+}
