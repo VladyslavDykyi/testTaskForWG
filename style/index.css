@@ -4,11 +4,29 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+
+/*_________container-wich*/
 .container {
     max-width: 1200px;
     padding: 0 30px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+.links-hover:hover {
+    box-shadow: 0 0 20px #ffc529; 
+    background-color: #ffc529;
+}
+.addres-hovers:hover ._icon-phone {
+    text-shadow: 0 0 20px #ffc529;
+}
+.addres-hovers:hover ._icon-e-mail {
+    text-shadow: 0 0 20px #ffc529;
+}
+.addres-hovers:hover ._icon-geo-map {
+    text-shadow: 0 0 20px #ffc529;
+}
+.links-hover-soc:hover {
+    color: #ffc529;
 }
 .flex-mid {
     display: flex;
@@ -56,9 +74,6 @@ font-family: 'Roboto', sans-serif;
     text-decoration-line: none;
     margin-right: 33px;
 }
-.hed__contact a i:hover {
-    text-shadow: 0 0 10px #ffc529;
-}
 .item-hed__callback {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -69,7 +84,6 @@ font-family: 'Roboto', sans-serif;
     height: 45px;
     width: 186px;
     background: #FFC529;
-    box-shadow: 0px 0px 20px #FFD35D;
     border-radius: 100px;
     border: none;
     margin-right: 18px;
@@ -102,7 +116,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #E1E1E1;
+    color: #e1e1e1;
     text-decoration-line: none;
 }
 .hed__lang a::before {
@@ -130,6 +144,24 @@ font-family: 'Roboto', sans-serif;
 .item-menu a {
     color: #fff;
     text-decoration-line: none;
+}
+.item-menu {
+  position: relative;
+}
+.item-menu::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  background-color: #ffc529;
+  transition: all 1s;
+}
+.item-menu:hover::after {
+  width: 100%;
+  box-shadow: 0 0 10px 0 #ffc529;
 }
 .selection-cars__title {
     font-family: 'Open Sans', sans-serif;
@@ -319,13 +351,13 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     display: block;
     margin: 29px auto 0;
-    background: #FFC529;
+    background: #ffc529;
     border: none;
-    box-shadow: 0px 0px 20px #ffd35d;
-    border-radius: 100px;
+    border-radius: 50px;
     width: 171px;
     height: 40px;
     color: #fff;
+    cursor: pointer;
 }
 .services-item__text {
     font-family: 'Open Sans', sans-serif;
@@ -343,11 +375,12 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
     color: #555555;
     margin-bottom: 46px;
-    border: 2px solid #FFC529;
+    border: 2px solid #ffc529;
     border-radius: 100px;
     background: #fff;
     width: 213px;
-    height: 40px
+    height: 40px;
+    cursor: pointer;
 }
 .services-item__img {
     display: flex;
@@ -388,6 +421,7 @@ font-family: 'Roboto', sans-serif;
     color: #ffc529;
     border: none;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .services-load__services-box span {
@@ -466,7 +500,7 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     width: 35px;
     height: 35px;
-    background: #FFC529;
+    background: #ffc529;
     border-radius: 50%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
