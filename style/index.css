@@ -35,7 +35,7 @@ font-family: 'Roboto', sans-serif;
 }
 .hed__bg {
     position: fixed;
-    background: #00000071;
+    background: #00000090;
     width: 100vw;
     z-index: 10000;
 }
@@ -89,7 +89,7 @@ font-family: 'Roboto', sans-serif;
     margin-right: 18px;
     cursor: pointer;
 }
-.hed__lang {
+.hed__lang-sub {
     width: 142px;
     height: 45px;
     background: #232421;
@@ -101,7 +101,7 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     cursor: pointer;
 }
-.hed__lang li span {
+.hed__lang-sub li span {
     border: solid #606060;
     border-width: 0 1.2px 1.2px 0;
     transform: rotate(45deg);
@@ -111,7 +111,7 @@ font-family: 'Roboto', sans-serif;
     bottom: 3px;
     margin-left: 10px;
 }
-.hed__lang a {
+.hed__lang-sub a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -119,9 +119,39 @@ font-family: 'Roboto', sans-serif;
     color: #e1e1e1;
     text-decoration-line: none;
 }
-.hed__lang a::before {
+.hed__lang-ru::before {
     content: url('../img/RU.png');
     margin-right: 7px;
+}
+.hed__lang-uk::before {
+    content: url('../img/Uk.png');
+    margin-right: 7px;
+}
+.hed__lang-eng::before {
+    content: url('../img/USA.png');
+    margin-right: 7px;
+}
+.hed__lang-sub-sub {
+    text-align: center;
+    background: #232421;
+    border: 1px solid #606060;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 142px;
+    position: absolute;
+    top: 4.4em;
+    z-index: 5;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: 0.5s ease-in-out;
+}
+.hed__lang-sub-sub li {
+    margin-top: 5px;
+}
+.hed__lang-sub .hed__lang-ru:hover .hed__lang-sub-sub {
+    opacity: 1;
+    transform: scaleY(1);
 }
 .selection-cars__BG {
     background-image: url('../img/topBG.jpg');
