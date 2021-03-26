@@ -156,7 +156,7 @@ font-family: 'Roboto', sans-serif;
 .selection-cars__BG {
     background-image: url('../img/topBG.jpg');
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    /* background-size: 100vw 100vh; */
     padding-bottom: 80px;
     box-sizing: border-box;
     background-position: center;
@@ -176,22 +176,22 @@ font-family: 'Roboto', sans-serif;
     text-decoration-line: none;
 }
 .item-menu {
-  position: relative;
+    position: relative;
 }
 .item-menu::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 3px;
-  bottom: -10px;
-  left: 0;
-  right: 0;
-  background-color: #ffc529;
-  transition: all 1s;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background-color: #ffc529;
+    transition: all 1s;
 }
 .item-menu:hover::after {
-  width: 100%;
-  box-shadow: 0 0 10px 0 #ffc529;
+    width: 100%;
+    box-shadow: 0 0 10px 0 #ffc529;
 }
 .selection-cars__title {
     font-family: 'Open Sans', sans-serif;
@@ -211,8 +211,8 @@ font-family: 'Roboto', sans-serif;
 }
 .selection-cars__services {
     display: flex;
-    justify-content: space-between;
-    margin: 135px 310px 0;
+    justify-content: space-evenly;
+    margin: 135px 0 0;
 }
 .services-items__first-cont {
     display: flex;
@@ -246,6 +246,7 @@ font-family: 'Roboto', sans-serif;
 }
 .services-items figcaption {
     margin-top: 11px;
+    min-width: 220px;
 }
 .services-text {
     font-family: 'Open Sans', sans-serif;
@@ -285,7 +286,9 @@ font-family: 'Roboto', sans-serif;
 .box-advantages {
     display: flex;
     align-items: end;
-    max-width: 358px;
+    flex: 33.33333%;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 .item-advantages {
     margin-right: 18px;
@@ -299,7 +302,7 @@ font-family: 'Roboto', sans-serif;
     margin-top: 9px;
 }
 .services {
-    margin: 106px auto 150px;
+    margin: 170px auto 150px;
     text-align: center;
 }
 .services-title {
@@ -318,6 +321,7 @@ font-family: 'Roboto', sans-serif;
 .services-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 53px;
 }
 .services-box {
@@ -486,6 +490,7 @@ font-family: 'Roboto', sans-serif;
 }
 .work-client__title span {
     font-weight: 700;
+    margin-left: 10px;
 }
 .work-client__container {
     display: flex;
@@ -493,8 +498,11 @@ font-family: 'Roboto', sans-serif;
     justify-content: space-between;
 }
 .work-client__box {
-    height: 258px;
-    width: 360px;
+    max-height: 258px;
+    max-width: 360px;
+    flex: 0 1 33.33333%;
+    margin-bottom: 26px;
+    padding-bottom: 54px;
 }
 .item__work-client__img {
     margin-bottom: 20px;
@@ -504,8 +512,6 @@ font-family: 'Roboto', sans-serif;
 .work-client__box figcaption {
     display: flex;
     justify-content: space-between;
-    width: 360px;
-    height: 147px;
 }
 .item__work-client__numb-box {
     display: flex;
@@ -540,8 +546,9 @@ font-family: 'Roboto', sans-serif;
     color: #151515;
 }
 .work-client__box figcaption section {
-    width: 292px;
-    height: 134px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    flex: 0 1 84.5%;
 }
 .item__work-client__title {
     font-family: 'Open Sans', sans-serif;
@@ -578,7 +585,7 @@ font-family: 'Roboto', sans-serif;
 }
 .reviews-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .reviews-box__items {
@@ -670,6 +677,8 @@ font-family: 'Roboto', sans-serif;
 }
 .dignity-box {
     min-height: 404px;
+    flex: 0 1 33.33333%;
+    margin-bottom: 15px;
 }
 .item-dignity-img {
     display: flex;
@@ -733,7 +742,8 @@ font-family: 'Roboto', sans-serif;
 }
 .risk-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 66px;
     padding-bottom: 139px;
 }
@@ -749,6 +759,11 @@ font-family: 'Roboto', sans-serif;
 .risk-title span {
     font-weight: 700;
     margin-left: 10px;
+}
+.risk-box {
+    flex: 0 1 50%;
+    margin-bottom: 10px;
+    max-width: 285px;
 }
 .item__risk-box {
     display: flex;
@@ -804,6 +819,7 @@ font-family: 'Roboto', sans-serif;
 .foot-box__contact {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 .foot-box__contact a {
