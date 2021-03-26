@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="hedBG">
+    <header class="hed__bg">
         <div class="hed flex-mid container">
             <a class="hed__logo" href=""><img src="./img/logo.png" alt="">
                 <p><span>название</span>компании</p>
@@ -24,29 +24,27 @@
             <address class="hed__contact">
                 <a class="_icon-phone" href="tel:+17143804917"> +17143804917</a>
                 <button class="item-hed__callback">Обратный звонок</button>
-                <select class="item-hed__lang">
-                    <option value="1" class="ru-icon">Русский</option>
-                    <option value="2" class="uk-icon">Українська</option>
-                    <option value="3" class="usa-icon">English</option>
-                </select>
             </address>
+            <ul class="hed__lang">
+                <li class=""><a href="">Русский</a><span></span></li>
+            </ul>
         </div>
     </header>
-    <nav class="menu-fix container">
-        <menu class="menu__nav flex-mid">
-            <li class="item-menu"><a href="">Главная</a></li>
-            <li class="item-menu"><a href="">Преймущества</a></li>
-            <li class="item-menu"><a href="">Услуги</a></li>
-            <li class="item-menu"><a href="">Прайс</a></li>
-            <li class="item-menu"><a href="">Схема работы</a></li>
-            <li class="item-menu"><a href="">Почему мы?</a></li>
-            <li class="item-menu"><a href="">Риски</a></li>
-            <li class="item-menu"><a href="">Контакты</a></li>
-        </menu>
-    </nav>
     <main>
         <article class="topBG">
             <div class="selection-cars container">
+                <nav class="menu-cars">
+                    <menu class="menu__nav flex-mid">
+                        <li class="item-menu"><a href="">Главная</a></li>
+                        <li class="item-menu"><a href="">Преймущества</a></li>
+                        <li class="item-menu"><a href="">Услуги</a></li>
+                        <li class="item-menu"><a href="">Прайс</a></li>
+                        <li class="item-menu"><a href="">Схема работы</a></li>
+                        <li class="item-menu"><a href="">Почему мы?</a></li>
+                        <li class="item-menu"><a href="">Риски</a></li>
+                        <li class="item-menu"><a href="">Контакты</a></li>
+                    </menu>
+                </nav>
                 <h1 class="selection-cars__title">подбор автомобилей<span>c пробегом</span></h1>
                 <div class="selection-cars__services">
                     <figure class="services-items">
@@ -224,7 +222,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <button class="services-load__services-box">Загрузить еще<i class="fas fa-chevron-down"></i></button>
+                <button class="services-load__services-box">Загрузить еще<span></span></button>
             </div>
         </article>
         <article class="work-client__BG">
