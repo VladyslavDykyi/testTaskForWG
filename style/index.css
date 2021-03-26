@@ -26,6 +26,24 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
 }
+.hed__logo img {
+    margin-right: 10px;
+}
+.hed__logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration-line: none;
+}
+.hed__logo span {
+    -webkit-text-stroke: 1px #fff;
+    color: #0000;
+    margin-right: 10px;
+}
 .hed__contact a {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -108,7 +126,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .topBG {
-    background-image: url("../img/topbg.jpg");
+    background-image: url('../img/topbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -130,7 +148,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 80px;
     line-height: 109px;
     -webkit-text-stroke: 4px #fff;
-    color: rgba(255, 255, 255, 0);    
+    color: #0000;  
 }
 .selection-cars__services {
     display: flex;
@@ -393,7 +411,7 @@ font-family: 'Roboto', sans-serif;
     line-height: 49px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 92px;
 }
 .work-client__title span {
@@ -461,7 +479,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 13.5px;
 }
 .item__work-client__text {
@@ -469,7 +487,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .reviews__bg {
@@ -556,6 +574,11 @@ font-family: 'Roboto', sans-serif;
     border-right: none;
     cursor: pointer;
 }
+.bot__bg {
+    background-image: url('../img/botBG.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .dignity-title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -634,6 +657,7 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #333333;
 }
+
 .risk {
     margin-top: 170px;
 }
@@ -650,7 +674,7 @@ font-family: 'Roboto', sans-serif;
     line-height: 49px;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 .risk-title span {
     font-weight: 700;
@@ -670,15 +694,80 @@ font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 22px;
-    color: #000;
+    color: #fff;
 }
 .item__risk-text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #000;
+    color: #fff;
     width: 263px;
     margin-top: 21px;
 }
 
+.foot__bg {
+    background: #151515;
+    padding: 61px 0;
+}
+.foot {
+    text-align: center;
+}
+.foot-logo {
+    text-decoration-line: none;
+}
+.foot-logo p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 18px;
+}
+.foot-logo p span {
+    -webkit-text-stroke: 1px #fff;
+    color: #0000;
+    margin-right: 10px;
+}
+.foot-box__contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.foot-box__contact a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    text-decoration-line: none;
+}
+.foot-box__social {
+    
+    margin-top: 52px;
+}
+.foot-box__social a:first-of-type {
+    margin-right: 25px;
+}
+.foot-box__social a {
+    font-size: 34px;
+    color: #fff;
+    text-decoration-line: none;
+}
+.webGeneranot {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: 30px;
+    display: block;
+}
+.webGeneranot span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-decoration-line: underline;
+}
