@@ -6,6 +6,13 @@ font-family: 'Roboto', sans-serif;
 */
 
 /*_________container-wich*/
+html {
+    scroll-behavior: smooth;
+}
+.open-sans__w-400 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 .container {
     max-width: 1200px;
     padding: 0 30px;
@@ -65,7 +72,7 @@ font-family: 'Roboto', sans-serif;
     margin-right: 10px;
 }
 .hed__contact a {
-    font-family: 'Open Sans', sans-serif;
+    
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
@@ -75,7 +82,7 @@ font-family: 'Roboto', sans-serif;
     margin-right: 33px;
 }
 .item-hed__callback {
-    font-family: 'Open Sans', sans-serif;
+    
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
@@ -111,9 +118,12 @@ font-family: 'Roboto', sans-serif;
     bottom: 3px;
     margin-left: 10px;
 }
+.hed__lang-sub li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #e1e1e1;
+}
 .hed__lang-sub a {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     color: #e1e1e1;
@@ -165,7 +175,7 @@ font-family: 'Roboto', sans-serif;
     padding-top: 120px;
 }
 .item-menu {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
@@ -194,7 +204,7 @@ font-family: 'Roboto', sans-serif;
     box-shadow: 0 0 10px 0 #ffc529;
 }
 .selection-cars__title {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 800;
     font-size: 64px;
     line-height: 87px;
@@ -249,8 +259,8 @@ font-family: 'Roboto', sans-serif;
     min-width: 220px;
 }
 .services-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 24px;
     line-height: 22px;
     text-transform: uppercase;
@@ -265,8 +275,8 @@ font-family: 'Roboto', sans-serif;
     margin-top: 170px;
 }
 .advantages-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -294,8 +304,8 @@ font-family: 'Roboto', sans-serif;
     margin-right: 18px;
 }
 .text-advantages {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 15px;
     line-height: 22px;
     color: #555555;
@@ -306,8 +316,8 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .services-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -328,8 +338,8 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .services-item__title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -345,8 +355,8 @@ font-family: 'Roboto', sans-serif;
     display: flex;
 }
 .services-item__params {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 16px;
     line-height: 19px;
     color: #555555;
@@ -360,7 +370,7 @@ font-family: 'Roboto', sans-serif;
     margin: 24px 0 34px;
 }
 .push__servines-form label {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -369,7 +379,7 @@ font-family: 'Roboto', sans-serif;
     color: #555555;
 }
 .push__servines-form label span {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 30px;
     line-height: 25px;
@@ -378,7 +388,7 @@ font-family: 'Roboto', sans-serif;
     color:#ffc529
 }
 .push__servines-form button {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 17px;
     line-height: 19px;
@@ -394,7 +404,7 @@ font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
 .services-item__text {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -402,7 +412,7 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 11px;
 }
 .services-item__btn {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -447,7 +457,7 @@ font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 .services-load__services-box {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -479,8 +489,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .work-client__title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -538,7 +548,7 @@ font-family: 'Roboto', sans-serif;
     height: 35px;
     background: #ffc529;
     border-radius: 50%;
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 17px;
     line-height: 19px;
@@ -551,7 +561,7 @@ font-family: 'Roboto', sans-serif;
     flex: 0 1 84.5%;
 }
 .item__work-client__title {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
@@ -559,8 +569,8 @@ font-family: 'Roboto', sans-serif;
     margin-top: 13.5px;
 }
 .item__work-client__text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 14px;
     line-height: 21px;
     color: #fff;
@@ -570,8 +580,8 @@ font-family: 'Roboto', sans-serif;
     padding: 170px 0;
 }
 .reviews-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -657,8 +667,8 @@ font-family: 'Roboto', sans-serif;
     background-size: 100% 68%;
 }
 .dignity-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -715,8 +725,8 @@ font-family: 'Roboto', sans-serif;
     height: 120px;
 }
 .item-dignity-box h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -729,8 +739,8 @@ font-family: 'Roboto', sans-serif;
     margin-left: 10px;
 }
 .item-dignity-box p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -748,8 +758,8 @@ font-family: 'Roboto', sans-serif;
     padding-bottom: 139px;
 }
 .risk-title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -775,15 +785,15 @@ font-family: 'Roboto', sans-serif;
     width: 55px;
 }
 .item__risk-box__title {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 600;
     font-size: 24px;
     line-height: 22px;
     color: #fff;
 }
 .item__risk-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 15px;
     line-height: 22px;
     color: #fff;
@@ -823,8 +833,8 @@ font-family: 'Roboto', sans-serif;
     margin-top: 40px;
 }
 .foot-box__contact a {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 18px;
     line-height: 25px;
     color: #fff;
@@ -843,8 +853,8 @@ font-family: 'Roboto', sans-serif;
     text-decoration-line: none;
 }
 .webGeneranot {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    
+    
     font-size: 14px;
     line-height: 18px;
     color: #fff;
