@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href=./css/owl.carousel.min.css rel=stylesheet>
+    <link href=./css/owl.theme.default.min.css rel=stylesheet>
     <link rel="stylesheet" href="./style/resetCss.css">
     <link rel="stylesheet" href="./style/iconsFonts.css">
     <link rel="stylesheet" href="./style/index.css">
@@ -78,161 +80,275 @@
         </article>
 
         <article>
-            <div class="advantages container">
+            <div class="advantages container load-more-container">
                 <h2 class="advantages-title">наши <span>преимущества</span></h2>
-                <div class="case-advantages">
-                    <div class="box-advantages">
+                <input type="checkbox" id="load-more-advantages" class="off-dispay" />
+                <ul class="case-advantages">
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/Group.png" alt="">
                         <p class="text-advantages">Поиск машин по РФ. Мы гарантируем оперативный автоподбор, который
                             полностью удовлетворяет высоким качественным критериям
                             и соответствует цене, заявленной клиентом.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/car (1) 1.png" alt="">
                         <p class="text-advantages">До выдачи автомобиля клиенту, подобранное транспортное средство
                             проходит 2 полные проверки, которые проводят разные
                             автоэксперты компании. Многоуровневая система контроля позволяет выявить малейшие
                             неисправности.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/wallet 1.png" alt="">
                         <p class="text-advantages">Благодаря профессиональному торгу наших специалистов в процессе
                             автоподбора, практически во всех случаях услуги компании
                             полностью компенсируются!</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/rating 1.png" alt="">
                         <p class="text-advantages">Только правдивые отзывы об автоподборе от наших заказчиков! Мы
                             предоставляем ссылку на аккаунты клиентов в соцсетях.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/calendar (2) 1.png" alt="">
                         <p class="text-advantages">Среднее время автоподбора составляет 14 дней. Клиент постоянно
                             информируется о ходе и результатах проделанной работы.
                             Предоставление отчетов в режиме онлайн.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/group (3) 1.png" alt="">
                         <p class="text-advantages">Отсутствие очередей. Каждый специалист ведет не более 4 клиентов, что
                             позволяет максимально точно и оперативно выполнить
                             работу.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/discount 1.png" alt="">
                         <p class="text-advantages">Выгодные цены и условия на автоподбор.</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/winner 1.png" alt="">
                         <p class="text-advantages">Подбор авто проводят специалисты с обширным опытом!</p>
-                    </div>
-                    <div class="box-advantages">
+                    </li>
+                    <li class="box-advantages disp-init-advantages">
                         <img class="item-advantages" src="./img/icon/back-in-time 1.png" alt="">
                         <p class="text-advantages">Мы можем провести осмотр заинтересовавшего вас автомобиля в течение
                             нескольких часов после оформления заявки.</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+                <label class="load-more-btn off-dispay" for="load-more-advantages">
+                    <span class="unloaded">Загрузить еще<span class="spans-arrow-bot"></span></span>
+                    <span class="loaded">Спрятать<span class="spans-arrow-top"></span></span>
+                </label>
             </div>
         </article>
 
-        <article class="">
-            <div class="services container">
+        <article class="services__bg">
+            <div class="services container  load-more-container">
                 <h2 class="services-title">стоимость<span>услуг</span></h2>
-                <div class="services-container">
-                    <figure class="services-box">
-                        <div class="services-item__img">
-                            <div></div>
-                            <img src="./img/Ellipse 411.png" alt="">
-                        </div>
-                        <figcaption>
-                            <h3 class="services-item__title">Базовая<span>диагностика</span></h3>
-                            <ul class="services-item__box">
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                            </ul>
-                            <form class="push__servines-form">
-                                <label for="order">от <span>2500 ₽</span></label>
-                                <button id="order" class="links-hover">Зказать</button>
-                            </form>
-                            <p class="services-item__text">В каком случае стоит заказать проверку?</p>
-                            <button class="services-item__btn links-hover">Нажмите и узнайте</button>
-                        </figcaption>
-                    </figure>
-                    <figure class="services-box">
-                        <div class="services-item__img">
-                            <div></div>
-                            <img src="./img/Ellipse 4111.png" alt="">
-                        </div>
-                        <figcaption>
-                            <h3 class="services-item__title">комплексная<span>проверка</span></h3>
-                            <ul class="services-item__box">
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                            </ul>
-                            <form class="push__servines-form">
-                                <label for="order">от <span>2500 ₽</span></label>
-                                <button id="order" class="links-hover">Зказать</button>
-                            </form>
-                            <p class="services-item__text">В каком случае стоит заказать проверку?</p>
-                            <button class="services-item__btn links-hover">Нажмите и узнайте</button>
-                        </figcaption>
-                    </figure>
-                    <figure class="services-box">
-                        <div class="services-item__img">
-                            <div></div>
-                            <img src="./img/Ellipse 41111.png" alt="">
-                        </div>
-                        <figcaption>
-                            <h3 class="services-item__title">доставка<span>автомобиля</span></h3>
-                            <ul class="services-item__box">
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                                <li class="services-item__params _icon-yes">Проверка автомобиля
-                                    по 100 параметрам</li>
-                            </ul>
-                            <form class="push__servines-form">
-                                <label for="order">от <span>2500 ₽</span></label>
-                                <button id="order" class="links-hover">Зказать</button>
-                            </form>
-                            <p class="services-item__text">В каком случае стоит заказать проверку?</p>
-                            <button class="services-item__btn links-hover">Нажмите и узнайте</button>
-                        </figcaption>
-                    </figure>
-                </div>
-                <button class="services-load__services-box">Загрузить еще<span></span></button>
+                <input type="checkbox" id="load-more-services" />
+                <ul class="services-container">
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 411.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">Базовая<span>диагностика</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 4111.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">комплексная<span>проверка</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 41111.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">доставка<span>автомобиля</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 41111.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">доставка<span>автомобиля</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 41111.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">доставка<span>автомобиля</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="disp-init-services">
+                        <figure class="services-box">
+                            <div class="services-item__img">
+                                <div></div>
+                                <img src="./img/Ellipse 41111.png" alt="">
+                            </div>
+                            <figcaption>
+                                <h3 class="services-item__title">доставка<span>автомобиля</span></h3>
+                                <ul class="services-item__box">
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                    <li class="services-item__params _icon-yes">Проверка автомобиля
+                                        по 100 параметрам</li>
+                                </ul>
+                                <form class="push__servines-form">
+                                    <label for="order">от <span>2500 ₽</span></label>
+                                    <button id="order" class="links-hover">Зказать</button>
+                                </form>
+                                <p class="services-item__text">В каком случае стоит заказать проверку?</p>
+                                <button class="services-item__btn links-hover">Нажмите и узнайте</button>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <label class="load-more-btn-services" for="load-more-services">
+                    <span class="unloaded">Загрузить еще<span class="spans-arrow-bot"></span></span>
+                    <span class="loaded">Спрятать<span class="spans-arrow-top"></span></span>
+                </label>
             </div>
         </article>
 
@@ -240,6 +356,49 @@
             <div class="work-client__BG-color">
                 <div class="work-client container">
                     <h2 class="work-client__title">путь работы<span>с клиентом</span></h2>
+                    <section class="work-client__container-lou">
+                        <h3 class="work-client__title-lou">Покупка поддержанного автомобиля с нами максимально проста и
+                            безопасна</h3>
+                        <p class="work-client__text-lou">Мы будем сопровождать вас на всех этапах покупки автомобиля :
+                            от мысли о покупки - до
+                            результата</p>
+                        <div class="work-client__container-lou__box">
+                            <section class="work-client__box-lou">
+                                <div class="item__work-client__numb-box">
+                                    <div class="item__work-client__numb-bg"></div>
+                                    <div class="item__work-client__numb-cont">1</div>
+                                </div>
+                                <div>
+                                    <h4 class="item__work-client__title">1-й день:</h4>
+                                    <p class="item__work-client__text">Обращение к нам, консультация и заключение
+                                        договора.</p>
+                                </div>
+                            </section>
+                            <section class="work-client__box-lou">
+                                <div class="item__work-client__numb-box">
+                                    <div class="item__work-client__numb-bg"></div>
+                                    <div class="item__work-client__numb-cont">2</div>
+                                </div>
+                                <div>
+                                    <h4 class="item__work-client__title">от 2-х до 8-ми дней:</h4>
+                                    <p class="item__work-client__text">Поиск авто с фото и видео отчетами вам в личный
+                                        кабинет</p>
+                                </div>
+                            </section>
+                            <section class="work-client__box-lou">
+                                <div class="item__work-client__numb-box">
+                                    <div class="item__work-client__numb-bg"></div>
+                                    <div class="item__work-client__numb-cont">3</div>
+                                </div>
+                                <div>
+                                    <h4 class="item__work-client__title">Завершающий этап</h4>
+                                    <p class="item__work-client__text">Выезд с Вами на просмотр подобранного авто,
+                                        контрольная проверка и покупка
+                                        автомобиля.</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
                     <div class="work-client__container">
                         <figure class="work-client__box">
                             <img class="item__work-client__img" src="./img/icon/website1.png" alt="">
@@ -383,11 +542,21 @@
         <article class="reviews__bg">
             <div class="reviews container">
                 <h2 class="reviews-title">наши<span>отзывы</span></h2>
-                <div class="reviews-container">
+                <div class="owl-carousel reviews-container">
                     <div class="reviews-box__items">
                         <div class="item__reviews-bg"></div>
                         <img src="./img/Rectangle25.jpg">
 
+                        <div class="item__reviews__numb-box">
+                            <div class="item__reviews__numb-bg"></div>
+                            <div class="item__reviews__numb-cont">
+                                <button class="item__reviews__numb-cont-arrow"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-box__items">
+                        <div class="item__reviews-bg"></div>
+                        <img src="./img/Rectangle25.jpg">
                         <div class="item__reviews__numb-box">
                             <div class="item__reviews__numb-bg"></div>
                             <div class="item__reviews__numb-cont">
@@ -495,7 +664,7 @@
                 </div>
             </div>
             <div class="risk container">
-                <h1 class="risk-title">чем вы<span>рискуете</span></h1>
+                <h2 class="risk-title">чем вы<span>рискуете</span></h2>
                 <div class="risk-container">
                     <section class="risk-box">
                         <div class="item__risk-box">
@@ -563,6 +732,13 @@
         </div>
     </footer>
 
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
+    <script src=./js/owl.carousel.min.js></script>
+    <script>$(".owl-carousel").owlCarousel({ loop: !0, margin: 10, nav: !0, responsive: { 0: { items: 1 }, 575: { items: 1 }, 768: { items: 2 }, 998: { items: 2 }, 1200: { items: 3 }, 1920: { items: 3 } } })</script>
 </body>
 
 </html>
