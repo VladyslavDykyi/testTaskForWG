@@ -340,6 +340,31 @@ div.advantages .off-dispay {
     color: #555555;
     margin-top: 9px;
 }
+
+.what-check {
+    margin-top: 170px;
+}
+.what-check__title {
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 70px;
+}
+.what-check__title span {
+    font-weight: 700;
+    margin-left: 10px;
+}
+.what-check__box {
+    display: none;
+}
+
+
+
+
+
+
 .services {
     margin: 170px auto 150px;
     text-align: center;
@@ -1156,6 +1181,7 @@ div.advantages .off-dispay {
 
 
     .advantages-title,
+    .what-check__title,
     .services-title,
     .work-client__title,
     .reviews-title,
@@ -1168,6 +1194,7 @@ div.advantages .off-dispay {
         display: block;
     }
     .advantages-title,
+    .what-check__title,
     .work-client__title,
     .services-title,
     .reviews-title,
@@ -1219,9 +1246,44 @@ div.advantages .off-dispay {
         width: 50px;
         height: 50px;
     }
-    .advantages {
+    
+    .advantages,
+    .what-check {
         margin-top: 70px;
     }
+    .what-check__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .item__what-check {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #555555;
+    }
+    .item__what-check {
+        display: flex;
+        align-items: center;
+        width: 138px;
+        height: 61px;
+        background: #F4F3F8;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 14px;
+    }
+    .item__what-check:active {
+        color: #ffc529;
+    }
+    .item__what-check span {
+        font-size: 25px;
+        margin: 0 7px 0 8px;
+    }
+
+
+
     /*--------------------services--------------------------*/
     
     .load-more-container ul .disp-init-services:nth-child(1n+2) {
@@ -1299,6 +1361,9 @@ div.advantages .off-dispay {
     .item__work-client__title, .item__work-client__text {
         margin-left: 25px;
     }
+    .bottom__work-client__box {
+        display: none;
+    }
     .dignity-container {
         display: flex;
         flex-direction: column;
@@ -1365,7 +1430,51 @@ div.advantages .off-dispay {
         display: block;
     }
 
+    .work-client__BG-color {
+        padding: 70px 0 70px;
+    }
+    
+    
+    .bottom__work-client__box {
+        position: relative;
+        display: flex;
+        top: 90px;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .bottom__work-client__box::before {
+        content: '';
+        position: absolute;
+        right: 15px;
+        z-index: 1;
+        background-color: #ffc529;
+        width: 475px;
+        height: 212px;
+        transform: skew(-20deg);
+    }
+    .bottom__work-client__title {
+        position: relative;
+        z-index: 2;
+        width: 303px;
+        height: 44px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #151515;
+    }
+    .bottom__work-client__text {
+        position: relative;
+        z-index: 2;
+        width: 242px;
+        height: 110px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #151515;
+    }
+    .reviews__bg {
+        padding: 150px 0;
+    }
 
     .item-dignity-box {
         max-width: 290px;

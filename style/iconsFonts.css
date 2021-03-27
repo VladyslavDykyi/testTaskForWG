@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'icons';
-  src:  url('../fonts/icons.eot?vac71i');
-  src:  url('../fonts/icons.eot?vac71i#iefix') format('embedded-opentype'),
-    url('../fonts/icons.ttf?vac71i') format('truetype'),
-    url('../fonts/icons.woff?vac71i') format('woff'),
-    url('../fonts/icons.svg?vac71i#icons') format('svg');
+  src:  url('../fonts/icons.eot?xmxbml');
+  src:  url('../fonts/icons.eot?xmxbml#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?xmxbml') format('truetype'),
+    url('../fonts/icons.woff?xmxbml') format('woff'),
+    url('../fonts/icons.svg?xmxbml#icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="_icon-"]::before, [class*=" _icon-"]::before {
+[class^="_icon-"], [class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icons' !important;
   speak: never;
@@ -25,31 +25,71 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._icon-yes:before {
+._icon-airbag1:before {
+  content: "\e913";
+}
+._icon-air-filter1:before {
+  content: "\e900";
+}
+._icon-battery1:before {
   content: "\e901";
+}
+._icon-car-door1:before {
+  content: "\e902";
+}
+._icon-car-seat1:before {
+  content: "\e903";
+}
+._icon-disc-brake1:before {
+  content: "\e904";
+}
+._icon-file1:before {
+  content: "\e905";
+}
+._icon-folder1:before {
+  content: "\e906";
+}
+._icon-motor1:before {
+  content: "\e907";
+}
+._icon-price-tag1:before {
+  content: "\e908";
+}
+._icon-shock-absorber1:before {
+  content: "\e909";
+}
+._icon-steering-wheel1:before {
+  content: "\e90a";
+}
+._icon-tire1:before {
+  content: "\e90b";
+}
+._icon-Vector:before {
+  content: "\e90c";
+}
+._icon-yes:before {
+  content: "\e912";
   color: #ffc529;
   margin-right: 10px;
 }
 ._icon-phone:before {
-  content: "\e902";
+  content: "\e911";
   color: #ffc529;
   margin-right: 10px;
 }
 ._icon-e-mail:before {
-  content: "\e903";
+  content: "\e910";
   color: #ffc529;
   margin-right: 10px;
 }
 ._icon-geo-map:before {
-  content: "\e904";
+  content: "\e90f";
   color: #ffc529;
   margin-right: 10px;
 }
 ._icon-facebook:before {
-  content: "\e905";
-  margin-right: 10px;
+  content: "\e90e";
 }
 ._icon-instagram:before {
-  content: "\e900";
-  margin-right: 10px;
+  content: "\e90d";
 }
