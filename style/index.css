@@ -58,6 +58,10 @@ html {
     left: 3px;
     box-sizing: border-box;
 }
+.border-of-title {
+    width: 61px;
+    border-bottom: 2px solid #c7c7c7;
+}
 /*-----------------------------------------------------------------------------------*/
 .flex-mid {
     display: flex;
@@ -173,7 +177,7 @@ html {
     box-sizing: border-box;
     width: 142px;
     position: absolute;
-    top: 4.4em;
+    top: 5em;
     z-index: 5;
     opacity: 0;
     transform: scaleY(0);
@@ -183,7 +187,7 @@ html {
 .hed__lang-sub-sub li {
     margin-top: 5px;
 }
-.hed__lang-sub .hed__lang-ru:hover .hed__lang-sub-sub {
+.hed__lang-sub:hover .hed__lang-sub-sub {
     opacity: 1;
     transform: scaleY(1);
 }
@@ -296,7 +300,11 @@ html {
 
 .advantages {
     margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 /*----------------------------------------------*/
 div.advantages .off-dispay {
     display: none;
@@ -304,8 +312,6 @@ div.advantages .off-dispay {
 /*----------------------------------------------*/
 
 .advantages-title {
-    
-    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -343,6 +349,9 @@ div.advantages .off-dispay {
 
 .what-check {
     margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .what-check__title {
     font-size: 36px;
@@ -356,7 +365,8 @@ div.advantages .off-dispay {
     font-weight: 700;
     margin-left: 10px;
 }
-.what-check__box {
+.what-check__box,
+.what-check__img {
     display: none;
 }
 
@@ -367,7 +377,9 @@ div.advantages .off-dispay {
 
 .services {
     margin: 170px auto 150px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -575,7 +587,13 @@ div.advantages .off-dispay {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.work-client__container-lou {
+.work-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-client__container-lou,
+.bottom__work-client__box {
     display: none;
 }
 .work-client__BG-color {
@@ -674,9 +692,12 @@ div.advantages .off-dispay {
 .reviews__bg {
     padding: 170px 0;
 }
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .reviews-title {
-    
-    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -760,10 +781,14 @@ div.advantages .off-dispay {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 68%;
+    padding-bottom: 140px;
+}
+.dignity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .dignity-title {
-    
-    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -844,6 +869,9 @@ div.advantages .off-dispay {
 }
 .risk {
     margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .risk-title {
     font-size: 36px;
@@ -860,14 +888,11 @@ div.advantages .off-dispay {
 .risk-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 139px;
 }
 
 .risk-box {
-    flex: 0 1 50%;
     margin-bottom: 10px;
-    max-width: 285px;
+    padding: 10px;
 }
 .item__risk-box {
     display: flex;
@@ -1083,6 +1108,13 @@ div.advantages .off-dispay {
         flex: 0 1 50%;
         margin-bottom: 10px;
     }
+    .risk-container {
+        flex-wrap: wrap;
+    }
+    .dignity-box {
+        min-height: auto; 
+        flex: 0 1 50%; 
+    }
     .foot-box__contact a {
         flex: 0 1 100%;
         margin-bottom: 20px;
@@ -1273,6 +1305,7 @@ div.advantages .off-dispay {
         border-radius: 10px;
         cursor: pointer;
         margin-bottom: 14px;
+        transition: all 0.3s ease 0s;
     }
     .item__what-check:active {
         color: #ffc529;
@@ -1281,7 +1314,11 @@ div.advantages .off-dispay {
         font-size: 25px;
         margin: 0 7px 0 8px;
     }
-
+    .what-check__img {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0;
+    }
 
 
     /*--------------------services--------------------------*/
@@ -1366,11 +1403,11 @@ div.advantages .off-dispay {
     }
     .dignity-container {
         display: flex;
-        flex-direction: column;
         align-items: center;
     }
     .dignity-box {
         min-height: unset;
+        flex: 0 1 100%;
     }
     .item-dignity-img {
         width: 151px;
@@ -1399,7 +1436,8 @@ div.advantages .off-dispay {
         width: 45px;
     }
     .bot__bg {
-        background-size: 550vw 53%;
+        background-size: 550vw 68%;
+        padding-bottom: 30px;
     }
 }
 
@@ -1475,10 +1513,16 @@ div.advantages .off-dispay {
     .reviews__bg {
         padding: 150px 0;
     }
-
+    .dignity-container {
+        justify-content: center;
+    }
     .item-dignity-box {
         max-width: 290px;
         max-height: unset;
+    }
+    .bot__bg {
+        background-size: 550vw 50%;
+        padding-bottom: 30px;
     }
     .foot__bg {
         padding: 30px 0;
