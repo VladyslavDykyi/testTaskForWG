@@ -1128,15 +1128,36 @@ div.advantages .off-dispay {
     }
 }
 @media screen and (max-width: 768px) {
+    .hed__logo,
+    .hed__contact {
+        display: none;
+    }
+    .hed__lang-sub {
+        background: none;
+        border: none;
+    }
+    .hed__bg {
+        background: #000000;
+    }
+    .hed {
+        height: 40px;
+    }
+    .hed__lang-sub-sub {
+        background: #000;
+        top: 2.8em;
+    }
+
+
+
+    
     body.lock {
         overflow: hidden;
     }
     .burger__menu {
         display: block;
-        position: relative;
+        position: fixed;
         width: 30px;
         height: 20px;
-        position: relative;
         z-index: 10;
     }
     .burger__menu span {
@@ -1445,7 +1466,6 @@ div.advantages .off-dispay {
     .container {
         max-width: 320px;
         padding: 0 10px;
-        box-sizing: border-box;
     }
     .selection-cars__title {
         font-size: 22px;
