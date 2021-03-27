@@ -100,7 +100,6 @@ html {
     margin-right: 10px;
 }
 .hed__contact a {
-    
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
@@ -110,7 +109,6 @@ html {
     margin-right: 33px;
 }
 .item-hed__callback {
-    
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
@@ -204,7 +202,6 @@ html {
     padding-top: 120px;
 }
 .item-menu {
-    
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
@@ -233,7 +230,6 @@ html {
     box-shadow: 0 0 10px 0 #ffc529;
 }
 .selection-cars__title {
-    
     font-weight: 800;
     font-size: 64px;
     line-height: 87px;
@@ -286,8 +282,6 @@ html {
     min-width: 220px;
 }
 .services-text {
-    
-    
     font-size: 24px;
     line-height: 22px;
     text-transform: uppercase;
@@ -297,20 +291,17 @@ html {
     margin-left: 10px;
     font-weight: 700;
 }
-
 .advantages {
     margin-top: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 /*----------------------------------------------*/
 div.advantages .off-dispay {
     display: none;
 }
 /*----------------------------------------------*/
-
 .advantages-title {
     font-size: 36px;
     line-height: 49px;
@@ -339,8 +330,6 @@ div.advantages .off-dispay {
     margin-right: 18px;
 }
 .text-advantages {
-    
-    
     font-size: 15px;
     line-height: 22px;
     color: #555555;
@@ -369,24 +358,13 @@ div.advantages .off-dispay {
 .what-check__img {
     display: none;
 }
-
-
-
-
-
-
 .services {
     margin: 170px auto 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-
 .services-title {
-    
-    
     font-size: 36px;
     line-height: 49px;
     text-align: center;
@@ -407,8 +385,6 @@ div.advantages .off-dispay {
     text-align: center;
 }
 .services-item__title {
-    
-    
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -424,7 +400,6 @@ div.advantages .off-dispay {
     display: flex;
 }
 .services-item__params {
-    
     display: block;
     font-size: 16px;
     line-height: 19px;
@@ -439,7 +414,6 @@ div.advantages .off-dispay {
     margin: 24px 0 34px;
 }
 .push__servines-form label {
-    
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -448,7 +422,6 @@ div.advantages .off-dispay {
     color: #555555;
 }
 .push__servines-form label span {
-    
     font-weight: 700;
     font-size: 30px;
     line-height: 25px;
@@ -457,7 +430,6 @@ div.advantages .off-dispay {
     color:#ffc529
 }
 .push__servines-form button {
-    
     font-weight: 700;
     font-size: 17px;
     line-height: 19px;
@@ -473,7 +445,6 @@ div.advantages .off-dispay {
     cursor: pointer;
 }
 .services-item__text {
-    
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -481,7 +452,6 @@ div.advantages .off-dispay {
     margin-bottom: 11px;
 }
 .services-item__btn {
-    
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
@@ -526,7 +496,6 @@ div.advantages .off-dispay {
     box-sizing: border-box;
 }
 .services-load__services-box {
-    
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -537,51 +506,50 @@ div.advantages .off-dispay {
     cursor: pointer;
 }
 /*----------------------------------------------*/
-    .load-more-container ul .disp-init-services:nth-child(1n+4) {
-        max-height: 0;
-        opacity: 0;
-        transition: 0.3s ease-in;
-    }
-    .load-more-container .load-more-btn-services {
-        position: relative;
-        z-index: 1000;
-        margin: 0 auto;
-        display: block;
-        cursor: pointer;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 30px;
-        letter-spacing: 0.03em;
-        color: #FFC529;
-    }
-    .unloaded, .loaded {
-        position: relative;
-        top: 4px;
-    }
-    .load-more-container .load-more-btn-services:hover {
-        background: #fff
-    }
-    .load-more-container .load-more-btn-services .loaded {
-        display: none;
-    }
-    .load-more-container #load-more-services {
-        display: none;
-    }
-    .load-more-container #load-more-services:checked ~ ul .disp-init-services:nth-child(1n+4) {
-        max-height: 2999px;
-        opacity: 1;
-        transition: 0.3s ease-in;
-    }
-    .load-more-container #load-more-services:checked ~ .load-more-btn-services .loaded {
-        display: block;
-    }
-    .load-more-container #load-more-services:checked ~ .load-more-btn-services .unloaded {
-        display: none;
-    } 
+.load-more-container ul .disp-init-services:nth-child(1n+4) {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+.load-more-container .load-more-btn-services {
+    position: relative;
+    z-index: 1000;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFC529;
+}
+.unloaded, .loaded {
+    position: relative;
+    top: 4px;
+}
+.load-more-container .load-more-btn-services:hover {
+    background: #fff
+}
+.load-more-container .load-more-btn-services .loaded {
+    display: none;
+}
+.load-more-container #load-more-services {
+    display: none;
+}
+.load-more-container #load-more-services:checked ~ ul .disp-init-services:nth-child(1n+4) {
+    max-height: 2999px;
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+.load-more-container #load-more-services:checked ~ .load-more-btn-services .loaded {
+    display: block;
+}
+.load-more-container #load-more-services:checked ~ .load-more-btn-services .unloaded {
+    display: none;
+} 
 /*----------------------------------------------*/
-
 .work-client__BG {
     background-image: url('../img/midBG.jpg');
     background-repeat: no-repeat;
@@ -682,8 +650,6 @@ div.advantages .off-dispay {
     margin-top: 13.5px;
 }
 .item__work-client__text {
-    
-    
     font-size: 14px;
     line-height: 21px;
     color: #fff;
@@ -848,8 +814,6 @@ div.advantages .off-dispay {
     max-height: 120px;
 }
 .item-dignity-box h4 {
-    
-    
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -889,7 +853,6 @@ div.advantages .off-dispay {
     display: flex;
     justify-content: center;
 }
-
 .risk-box {
     margin-bottom: 10px;
     padding: 10px;
@@ -904,15 +867,12 @@ div.advantages .off-dispay {
     width: 55px;
 }
 .item__risk-box__title {
-    
     font-weight: 600;
     font-size: 24px;
     line-height: 22px;
     color: #fff;
 }
 .item__risk-text {
-    
-    
     font-size: 15px;
     line-height: 22px;
     color: #fff;
@@ -952,8 +912,6 @@ div.advantages .off-dispay {
     margin-top: 40px;
 }
 .foot-box__contact a {
-    
-    
     font-size: 18px;
     line-height: 25px;
     color: #fff;
@@ -972,8 +930,6 @@ div.advantages .off-dispay {
     text-decoration-line: none;
 }
 .webGeneranot {
-    
-    
     font-size: 14px;
     line-height: 18px;
     color: #fff;
@@ -997,8 +953,7 @@ div.advantages .off-dispay {
     .item-hed__callback {
         margin-right: 0;
     }
-    /*--------------------services--------------------------*/
-    
+/*--------------------services--------------------------*/
     .load-more-container ul .disp-init-services:nth-child(1n+3) {
         max-height: 0;
         opacity: 0;
@@ -1009,7 +964,7 @@ div.advantages .off-dispay {
         opacity: 1;
         transition: 0.2s ease-in;
     }
-    /*-----------------------services-----------------------*/
+/*-----------------------services-----------------------*/
 }
 @media screen and (max-width: 1024px) {
     .container {
@@ -1052,7 +1007,7 @@ div.advantages .off-dispay {
     .dignity-title span {
         display: block;
     }
-    /*-----------------------advantages-----------------------*/
+/*-----------------------advantages-----------------------*/
     div.advantages .off-dispay {
         display: block;
     }
@@ -1103,7 +1058,7 @@ div.advantages .off-dispay {
         display: none;
 
     }
-    /*---------------------advantages-------------------------*/
+/*---------------------advantages-------------------------*/
     .box-advantages {
         flex: 0 1 50%;
         margin-bottom: 10px;
@@ -1146,10 +1101,7 @@ div.advantages .off-dispay {
         background: #000;
         top: 2.8em;
     }
-
-
-
-    
+/*___________________________________________________________*/
     body.lock {
         overflow: hidden;
     }
@@ -1222,17 +1174,7 @@ div.advantages .off-dispay {
     .flex-mid {
         flex-direction: column;
     }
-
-
-
-
-
-
-
-
-
-
-
+    /*___________________________________________________________*/
     .advantages-title,
     .what-check__title,
     .services-title,
@@ -1277,13 +1219,11 @@ div.advantages .off-dispay {
     }
     .services-text span {
         margin: 5px 0 0;
-
     }
     .case-advantages {
         flex-direction: column;
     }
     /*--------------------advantages--------------------------*/
-    
     .load-more-container ul .disp-init-advantages:nth-child(1n+4) {
         max-height: 0;
         opacity: 0;
@@ -1299,7 +1239,6 @@ div.advantages .off-dispay {
         width: 50px;
         height: 50px;
     }
-    
     .advantages,
     .what-check {
         margin-top: 70px;
@@ -1340,10 +1279,7 @@ div.advantages .off-dispay {
         justify-content: center;
         margin: 20px 0 0;
     }
-
-
     /*--------------------services--------------------------*/
-    
     .load-more-container ul .disp-init-services:nth-child(1n+2) {
         max-height: 0;
         opacity: 0;
@@ -1361,7 +1297,6 @@ div.advantages .off-dispay {
     .services-container {
         flex-direction: column;
     }
-    
     .services-item__text {
         font-weight: 600;
         line-height: 18px;
@@ -1381,7 +1316,6 @@ div.advantages .off-dispay {
         width: 146.52px;
         height: 146.26px;
     }
-    
     .work-client__BG-color {
         padding: 70px 0 70px;
     }
