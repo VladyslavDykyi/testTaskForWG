@@ -794,8 +794,8 @@ div.advantages .off-dispay {
     box-sizing: border-box;
 }
 .item-dignity-box {
-    width: 360px;
-    height: 120px;
+    max-width: unset;
+    max-height: 120px;
 }
 .item-dignity-box h4 {
     
@@ -1071,6 +1071,90 @@ div.advantages .off-dispay {
     }
 }
 @media screen and (max-width: 768px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .burger__menu {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 10;
+    }
+    .burger__menu span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        top: 9px;
+        width: 100%;
+        height: 2px;
+        transition: all 0.3s ease 0s;
+    }
+    .burger__menu::before,
+    .burger__menu::after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .burger__menu::before {
+        top: 0;
+    }
+    .burger__menu::after {
+        width: 80%;
+        bottom: 0;
+    }
+    .burger__menu.active span {
+        transform: scale(0);
+    }
+    .burger__menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .burger__menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        width: 100%;
+    }
+
+    .burger__menu-box {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        padding: 70px 10px 20px 10px;
+        box-sizing: border-box;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+    .burger__menu-box.active {
+        top: 0;
+    }
+    .burger__menu-list {
+        position: relative;
+        z-index: 10;
+        
+    }
+    .flex-mid {
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
     .advantages-title,
     .services-title,
     .work-client__title,
@@ -1109,6 +1193,7 @@ div.advantages .off-dispay {
         flex-direction: column;
         align-items: center;
         line-height: 22px;
+        font-size: 20px;
     }
     .services-text span {
         margin: 5px 0 0;
@@ -1250,5 +1335,43 @@ div.advantages .off-dispay {
     }
     .bot__bg {
         background-size: 550vw 53%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 320px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .selection-cars__title {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .selection-cars__title span {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .selection-cars__services {
+        justify-content: space-around;
+    }
+    .services-items figcaption {
+        min-width: unset;
+    }
+    .services-item__title span {
+        margin-left: 10px;
+        display: block;
+    }
+
+
+
+    .item-dignity-box {
+        max-width: 290px;
+        max-height: unset;
+    }
+    .foot__bg {
+        padding: 30px 0;
     }
 }
