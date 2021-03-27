@@ -188,12 +188,13 @@ html {
     transform: scaleY(1);
 }
 .selection-cars__BG {
-    background-image: url('../img/topBG.jpg');
+    background-image: url(../img/topBG.jpg);
     background-repeat: no-repeat;
-    /* background-size: 100vw 100vh; */
+    background-size: 100% 100%;
+    width: 100vw;
     padding-bottom: 80px;
     box-sizing: border-box;
-    background-position: center;
+    background-position: bottom;
 }
 .selection-cars {
     padding-top: 120px;
@@ -238,8 +239,6 @@ html {
 }
 .selection-cars__title span {
     display: inline-block;
-    font-size: 80px;
-    line-height: 109px;
     -webkit-text-stroke: 2px #fff;
     color: #0000;  
 }
@@ -944,6 +943,10 @@ div.advantages .off-dispay {
     .container {
         max-width: 964px;
     }
+    .hed__contact a,
+    .item-hed__callback {
+        margin-right: 0;
+    }
     /*--------------------services--------------------------*/
     
     .load-more-container ul .disp-init-services:nth-child(1n+3) {
@@ -963,14 +966,41 @@ div.advantages .off-dispay {
         max-width: 748px;
         padding: 0 10px;
     }
+    .hed__contact a,
+    .item-hed__callback {
+        margin-right: 10px;
+    }
+    .hed__logo {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .hed__logo img {
+        width: 51px;
+        height: 37px;
+    }
+    .flex-mid {
+        flex-wrap: wrap;
+    }
+    .item-menu {
+        flex: 0 1 25%;
+        margin-bottom: 25px;
+    }
+    .selection-cars__title {
+        font-size: 46px;
+        line-height: 66px;
+    }
+    .selection-cars__title span {
+        -webkit-text-stroke: 1px #fff;
+    }
     .selection-cars__BG {
         background-size: cover;
     }
     .selection-cars {
         padding-top: 120px;
     }
-    .case-advantages {
-        justify-content: center;
+    .dignity-title span {
+        display: block;
     }
     /*-----------------------advantages-----------------------*/
     div.advantages .off-dispay {
@@ -1036,6 +1066,9 @@ div.advantages .off-dispay {
         display: flex;
         justify-content: center;
     }
+    .foot-box__contact {
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 768px) {
     .advantages-title,
@@ -1047,9 +1080,7 @@ div.advantages .off-dispay {
         font-size: 24px;
         line-height: 33px;
     }
-    
-    .work-client__title span,
-    .dignity-title span {
+    .work-client__title span {
         display: block;
     }
     .advantages-title,
@@ -1059,6 +1090,29 @@ div.advantages .off-dispay {
     .dignity-title,
     .risk-title {
         margin-bottom: 35px;
+    }
+
+    .services-items__first-cont {
+        width: 112.72px;
+        height: 113.92px;
+    }
+    .services-items__first-cont div {
+        width: 97.69px;
+        height: 98.74px;
+    }
+    .services-items img {
+        width: 85.17px;
+        height: 86.08px;    
+    }
+    .services-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 22px;
+    }
+    .services-text span {
+        margin: 5px 0 0;
+
     }
     .case-advantages {
         flex-direction: column;
@@ -1080,6 +1134,9 @@ div.advantages .off-dispay {
         width: 50px;
         height: 50px;
     }
+    .advantages {
+        margin-top: 70px;
+    }
     /*--------------------services--------------------------*/
     
     .load-more-container ul .disp-init-services:nth-child(1n+2) {
@@ -1093,6 +1150,9 @@ div.advantages .off-dispay {
         transition: 0.2s ease-in;
     }
     /*-----------------------services-----------------------*/
+    .services {
+        margin: 70px auto 50px;
+    }
     .services-container {
         flex-direction: column;
     }
@@ -1116,13 +1176,16 @@ div.advantages .off-dispay {
         width: 146.52px;
         height: 146.26px;
     }
+    
     .work-client__BG-color {
-        padding: 67px 0 124px;
+        padding: 70px 0 70px;
     }
     .work-client__container {
         display: none;
     }
-   
+    .reviews__bg {
+        padding: 70px 0;
+    }
     .work-client__container-lou {
         display: flex;
         flex-direction: column;
@@ -1135,7 +1198,6 @@ div.advantages .off-dispay {
         line-height: 22px;
         text-align: center;
         color: #fff;
-        max-width: 290px;
         margin-bottom: 15px;
     }
     .work-client__text-lou {
@@ -1143,12 +1205,10 @@ div.advantages .off-dispay {
         line-height: 20px;
         text-align: center;
         color: #fff;
-        max-width: 290px;
         margin-bottom: 15px;
     }
     .work-client__box-lou {
         display: flex;
-        max-width: 290px;
         margin-bottom: 15px;
     }
     .item__work-client__title, .item__work-client__text {
@@ -1178,6 +1238,9 @@ div.advantages .off-dispay {
         font-size: 18px;
         line-height: 22px;
     }
+    .risk {
+        margin-top: 70px;
+    }
     .item__risk-box__title {
         font-size: 22px;
     }
@@ -1186,6 +1249,6 @@ div.advantages .off-dispay {
         width: 45px;
     }
     .bot__bg {
-        background-size: unset;
+        background-size: 550vw 53%;
     }
 }
