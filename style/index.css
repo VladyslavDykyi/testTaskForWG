@@ -1156,6 +1156,9 @@ div.advantages .off-dispay {
     .addres-hovers span:last-of-type {
         display: none;
     }
+    .foot-box__contact .addres-hovers span {
+        display: flex;
+    }
 /*___________________________________________________________*/
     body.lock {
         overflow: hidden;
