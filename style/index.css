@@ -23,17 +23,28 @@ html {
     box-shadow: 0 0 20px #ffc529; 
     background-color: #ffc529;
 }
-.addres-hovers:hover ._icon-phone {
-    text-shadow: 0 0 20px #ffc529;
+.links-hover:active {
+    background-color: #ffbb00;
+    box-shadow: 0 0 20px #ffbb00;
 }
+
+.addres-hovers:hover ._icon-phone,
+.addres-hovers:hover ._icon-geo-map,
 .addres-hovers:hover ._icon-e-mail {
     text-shadow: 0 0 20px #ffc529;
 }
-.addres-hovers:hover ._icon-geo-map {
-    text-shadow: 0 0 20px #ffc529;
+.addres-hovers:active ._icon-phone,
+.addres-hovers:active ._icon-geo-map,
+.addres-hovers:active ._icon-e-mail {
+    color: #ffbb00;
+    text-shadow: 0 0 20px #ffbb00;
 }
+
 .links-hover-soc:hover {
     color: #ffc529;
+}
+.links-hover-soc:active {
+    color: #ffbb00;
 }
 .spans-arrow-bot {
     margin-left: 10px;
@@ -61,6 +72,11 @@ html {
 .border-of-title {
     width: 61px;
     border-bottom: 2px solid #c7c7c7;
+}
+.hed__lang-ru:hover,
+.hed__lang-uk:hover,
+.hed__lang-eng:hover {
+    border-bottom: 1px solid #ffc529;
 }
 /*-----------------------------------------------------------------------------------*/
 .hed__menu {
@@ -204,7 +220,6 @@ html {
     background-image: url(../img/topBG.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100vw;
     padding-bottom: 80px;
     box-sizing: border-box;
     background-position: bottom;
