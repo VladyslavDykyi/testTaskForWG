@@ -194,7 +194,7 @@ html {
     transition: 0.5s ease-in-out;
 }
 .hed__lang-sub-sub li {
-    margin-top: 5px;
+    margin: 15px;
 }
 .hed__lang-sub:hover .hed__lang-sub-sub {
     opacity: 1;
