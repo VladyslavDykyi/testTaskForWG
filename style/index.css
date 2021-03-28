@@ -134,7 +134,7 @@ html {
     cursor: pointer;
 }
 .hed__lang-sub {
-    width: 142px;
+    width: 150px;
     height: 45px;
     background: #232421;
     border: 1px solid #606060;
@@ -754,7 +754,7 @@ div.advantages .off-dispay {
     border-left: 25px solid #ffc529;
     border-bottom: 12.5px solid transparent;
     margin-left: 17px;
-    background: #fff;
+    background: transparent;
     border-right: none;
     cursor: pointer;
 }
@@ -1098,7 +1098,13 @@ div.advantages .off-dispay {
     }
 }
 @media screen and (max-width: 768px) {
-    
+    .hed__bg::before {
+        content: '';
+        position: absolute;
+        height: 104px;
+        width: 100vw;
+        background: #00000082;
+    }
     .hed__logo-on {
         display: flex;
         position: relative;
@@ -1116,10 +1122,10 @@ div.advantages .off-dispay {
         padding: 0px 0 0;
     }
     .hed__menu {
-        flex-direction: column-reverse;  
-        background: #00000082;
+        flex-direction: column-reverse;
     }
     .head__menu-f {
+        z-index: 10;
         width: 90vw;
     }
     .hed {
@@ -1412,6 +1418,36 @@ div.advantages .off-dispay {
     .bottom__work-client__box {
         display: none;
     }
+    .reviews-box__items {
+        width: 230.56px;
+        height: 178.04px;
+    }
+    .reviews-box__items img {
+        width: 230.56px;
+        height: 178.04px;
+    }
+    .item__reviews__numb-box {
+        width: 63.4px;
+        height: 63.4px;
+    }
+    .item__reviews__numb-bg {
+        width: 52.68px;
+        height: 52.68px;
+    }
+    .item__reviews__numb-cont {
+        width: 40.35px;
+        height: 40.35px;
+    }
+    .item__reviews__numb-cont-arrow {
+        border-top: 6.5px solid transparent;
+        border-left: 12.5px solid #ffc529;
+        border-bottom: 6.5px solid transparent;
+    }
+    .item__reviews-bg {
+        border-bottom: 160px solid #ffc529;
+        border-left: 215px solid transparent;
+    }
+
     .dignity-container {
         display: flex;
         align-items: center;
@@ -1450,8 +1486,22 @@ div.advantages .off-dispay {
         background-size: 550vw 68%;
         padding-bottom: 30px;
     }
-}
+    .item-dignity-box-last h4 {
+        color: #fff;
+    }
+    .item-dignity-box-last p  {
+        color: #fff;
+    }
 
+}
+@media screen and (max-width: 584px) {
+    .item-dignity-box-last h4 {
+        color: #333;
+    }
+    .item-dignity-box-last p  {
+        color: #333;
+    }
+}
 @media screen and (max-width: 425px) {
     .container {
         max-width: 320px;
