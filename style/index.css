@@ -63,6 +63,22 @@ html {
     border-bottom: 2px solid #c7c7c7;
 }
 /*-----------------------------------------------------------------------------------*/
+.hed__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 10px;
+}
+.hed__menu-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hed__contact {
+    display: flex;
+    align-items: center;
+}
 .flex-mid {
     display: flex;
     align-items: center;
@@ -73,6 +89,7 @@ html {
     background: #00000090;
     width: 100vw;
     z-index: 10000;
+    height: 97px;
 }
 .hed {
     height: 97px;
@@ -131,6 +148,7 @@ html {
     border-radius: 100px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
     cursor: pointer;
 }
@@ -175,7 +193,7 @@ html {
     box-sizing: border-box;
     width: 142px;
     position: absolute;
-    top: 5em;
+    top: 4.2em;
     z-index: 5;
     opacity: 0;
     transform: scaleY(0);
@@ -1087,15 +1105,22 @@ div.advantages .off-dispay {
     .hed__contact {
         display: none;
     }
+    .hed__logo-on {
+        display: flex;
+        position: relative;
+        top: 50px;
+    }
     .hed__lang-sub {
         background: none;
         border: none;
+        position: relative;
+        z-index: 10;
     }
     .hed__bg {
         background: #000000;
     }
     .hed {
-        height: 40px;
+        height: unset;
     }
     .hed__lang-sub-sub {
         background: #000;
@@ -1105,9 +1130,20 @@ div.advantages .off-dispay {
     body.lock {
         overflow: hidden;
     }
+    .burger__menu__hed-bg {
+        display: block;
+        background-color: #000000b8;
+        width: 100vw;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .burger__menu {
         display: block;
-        position: fixed;
+        position: absolute;
+        top: 60px;
+        left: 15px;
         width: 30px;
         height: 20px;
         z-index: 10;
@@ -1158,10 +1194,13 @@ div.advantages .off-dispay {
         width: 100%;
         height: 100%;
         background: #000;
-        padding: 70px 10px 20px 10px;
+        display: flex;
+        justify-content: center;
+        padding: 120px 10px 20px 10px;
         box-sizing: border-box;
         transition: all 0.3s ease 0s;
         overflow: auto;
+        z-index: 9999;
     }
     .burger__menu-box.active {
         top: 0;
@@ -1172,7 +1211,13 @@ div.advantages .off-dispay {
         
     }
     .flex-mid {
+        display: block;
         flex-direction: column;
+    }
+    
+    .burger__menu__phone a {
+        font-size: 35px;
+        text-decoration-line: none;
     }
     /*___________________________________________________________*/
     .advantages-title,
@@ -1401,10 +1446,14 @@ div.advantages .off-dispay {
         max-width: 320px;
         padding: 0 10px;
     }
+    .selection-cars {
+        padding-top: 140px;
+    }
     .selection-cars__title {
         font-size: 22px;
         line-height: 30px;
         text-align: center;
+        margin: 0;
     }
     .selection-cars__title span {
         font-weight: 800;
