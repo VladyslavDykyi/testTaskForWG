@@ -695,6 +695,7 @@ div.advantages .off-dispay {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 0;
 }
 .reviews-box__items {
     display: flex;
@@ -702,6 +703,7 @@ div.advantages .off-dispay {
     align-items: center;
     position: relative;
     z-index: 2;
+    max-width: 0;
 }
 .reviews-box__items img {
     position: relative;
@@ -1447,7 +1449,6 @@ div.advantages .off-dispay {
         border-bottom: 160px solid #ffc529;
         border-left: 215px solid transparent;
     }
-
     .dignity-container {
         display: flex;
         align-items: center;
